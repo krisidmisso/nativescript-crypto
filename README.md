@@ -1,9 +1,5 @@
 # NativeScript Crypto
 
-...
-## (Optional) Prerequisites / Requirements
-
-...
 
 ## Installation
 
@@ -14,6 +10,14 @@ tns plugin add nativescript-crypto
 ```
 
 ## Usage
+
+Add 'xmlns:tools="http://schemas.android.com/tools"' inside <manifest> after in AndroidManifest.xml:
+```
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	package="__PACKAGE__"
+	android:versionCode="1"
+	android:versionName="1.0">
+```
 
 ...
 
